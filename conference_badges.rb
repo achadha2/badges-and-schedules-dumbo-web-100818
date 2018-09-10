@@ -13,7 +13,6 @@ end
 def assign_rooms(speakers)
   room_assignments = []
   message = speakers.each_with_index{|name, i| room_assignments.push("Hello, #{name}! You'll be assigned to room #{i+1}!")}
-  room_assignments.push(message)
 end
 
 assign_rooms(speakers)
