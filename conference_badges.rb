@@ -8,6 +8,7 @@ def batch_badge_creator(speakers)
   batch = []
   badges = speakers.each { |name| puts badge_maker(name)} 
   batch.push(badges)
+  return batch
 end
 
 def assign_rooms(speakers)
