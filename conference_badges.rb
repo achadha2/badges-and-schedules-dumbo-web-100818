@@ -7,7 +7,6 @@ end
 def batch_badge_creator(speakers)
   batch = []
   badges = speakers.each { |name| batch.push(badge_maker(name))} 
-  batch.push(badges)
   return batch
 end
 
